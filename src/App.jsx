@@ -4,7 +4,19 @@ function App() {
 
   return (
     <>
-      <h1> Welcome to the log in page! <br/> Lets start learning!</h1>
+      <form className= "login_Screen">
+        <div className="login_Container">
+          <div className="username_Container">
+            <label className="username_label">Username:</label>
+            <input type="text" className="username_Input"/>
+          </div>
+          <div className="password_Container">
+            <label className="password_label">Password:</label>
+            <input type="text" className="password_Input"/>
+          </div>
+          <button className="submit">Submit</button>
+        </div>
+      </form>
     </>
   )
 }
