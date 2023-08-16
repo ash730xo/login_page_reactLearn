@@ -30,10 +30,10 @@ function App() {
             <label className="password_label">Password:</label>
             <input type="password" className="password_Input" value={password} onChange={e => setPassword(e.target.value)}/>
           </div>
-
-          <button className="submit" type="submit" onClick={handleSubmit} >Submit</button>
         </div>
+
         {/* submit button in login container */}
+        <button className="submit" type="submit" onClick={handleSubmit} >Submit</button>
       </form>
       
     </>
