@@ -1,4 +1,5 @@
 import React from "react"
+import './styles.css'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
           </div>
           <div className="password_Container">
             <label className="password_label">Password:</label>
-            <input type="text" className="password_Input"/>
+            <input type="password" className="password_Input"/>
           </div>
           <button className="submit">Submit</button>
         </div>

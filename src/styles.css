@@ -1,0 +1,42 @@
+/* makes the gradient not repeat and covers whole screen */
+html {
+    height: 100%;
+}
+/* adds a linear gradient */
+body {
+    background-image: linear-gradient(to bottom right, rgb(146, 26, 251), rgba(244, 213, 240, 0.953));
+
+}
+/* puts the label obove input instead of next  */
+input, label {
+    display: block;
+}
+
+/* Sets log in screen to fit the whole screen */
+.login_Screen {
+    height: 800px;
+    width: 1650px;
+    position: relative;
+}
+
+/* sets the login container to middle of the screen */
+.login_Container {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    margin: -50px 0 0 -50px;
+}
+
+/* centers username and password  */
+.username_Container, .password_Container{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding-left: 15%;
+}
+
+/* centers button */
+button {
+    margin-left: 35%;
+}
